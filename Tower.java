@@ -7,7 +7,7 @@ public class Tower {
 
 		   public void Answer(int n, String start, String auxiliary, String end) {
 		       if (n == 1) {
-		           System.out.println(start + " -> " + end);
+		           System.out.println(start + " - " + end);
 		       } else {
 		           Answer(n - 1, start, end, auxiliary);
 		           System.out.println(start + " -> " + end);
